@@ -35,6 +35,12 @@ It should run on a microsoft server in the the data center.
 
 ![alt text](image.png)
 
+
+Already existing aproaches for RAG PDF Q&A Assitant: https://huggingface.co/spaces/MuntasirHossain/RAG-PDF-Chatbot
+We tested it, it gives o.k. answers, but need some improvement on the clear references of the documents. And we need to adapt it to more insight.
+
+![alt text](image-1.png)
+
 Open questions:
 - Hardware, Software, Solition requirements?
 Social Worker has a MS windows 11 OS without GPU to run a LLM solutution on premise.
@@ -50,11 +56,12 @@ Antonella Sandri ist eine Sozialarbeitende, welche helfen könnte zu testen.
 
 1. Was muss ich beachten, wenn ich ein Hörgerät beantrage?
 Es muss einfach zweckmässig sein, im Verhältis kosten, man mus subsidirität beachten, ahv, man muss akblären of kranken kasse zahl, man braucht offerte, man muss service vertrag. 
+Quelle, in der Wegleitung RIF Anhang H, und in den Handlungsempfehlungen PS CH udn PS AG pdf, Seite 6 Hörgeräte erwähnt.  
 
 2. Welche Unterlagen benötige ich für ein Gesuch, wenn ich Nebenkosten beantrage?
 3. Ist ein Ehepaar mit einer AHV Rent 4000 plis PK Rente 2000.- berechtigt IFH zu beantragen, grundsätzlich?
 4. Ein Klient hat eine Rechnung von 3000.- für Nebenkosten Wohnnebenkosten, diese Rechnung wurde vor 6 Monaten bezahlt, kann ich diese Gelder über IF beantragen?
 5. Schreibe mir ein Gesuch, für eine Brille, das Gesuch beinhaltet, Ausgangslage, Ziel, Subsidiarität, Partizipation?
 
-Keine Logik hat es gegeben, für 
+Es wurde schon versucht mit ChatGPT zu testen, es gab keine Logik für die Antworten, die Antworten ware nicht konzise. 
 
