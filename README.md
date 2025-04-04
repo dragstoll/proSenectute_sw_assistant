@@ -13,10 +13,22 @@ Fallbeispiel für ein IF-Gesuch
 Merkblatt Individuelle Finanzhilfe (Link: https://drive.google.com/drive/folders/1scZKSsrJ7IDLHsuO5f2C-v5_IngycciD?usp=sharing)
 Mateo Soppelsa (anwesend)
 
-Requirements that would help:
+Requirements that would help to do it well:
 
 - Examples of questions, queries for the AI assistant on the subject that need to look at.
+-
+
 
 Ideas for a solution:
 
-Using a RAG (retrieval augmented generation) AI assisstant that 
+Using a RAG (retrieval augmented generation) AI assisstant that discects the documents and tries to answer the question based on the instructions given. 
+A Webpage Solution for the intranet of the organisation would be most optimal.
+It should run on a microsoft server in the the data center. 
+ Output would be a text answers, perhaps with links, name of the document, page and or citation of the text section containing the refered information.
+
+Open questions:
+- Hardware, Software, Solition requirements?
+Social Worker has a MS windows 11 OS without GPU to run a LLM solutution on premise.
+A browser solution would be bettet.
+
+
