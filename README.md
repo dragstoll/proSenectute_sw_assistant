@@ -2,9 +2,13 @@
 AI Assisstant for social worker in Pro Senectute for requirements information on a financial help for clients.
 
 
-Ausgangslage: Ein Angebot der Pro Senectute ist die Individuelle Finanzhilfe. Diese Unterstützung richtet sich an Personen im AHV-Alter, die sich in einer finanziellen Notlage befinden, und wird von der Pro Senectute im Auftrag des Bundes bereitgestellt. Sie bietet Unterstützung bei dringend notwendigen Ausgaben, welche weder durch private Mittel noch durch die Sozialversicherung gedeckt werden können. Die Anträge für Individuelle Finanzhilfe werden von der Pro Senectute geprüft. Diese Anträge werden nicht nach Lust und Laune bewilligt… hierzu gibt es strenge und komplizierte Reglemente, welche eingehalten werden müssen. Diese Reglemente erschweren die Einarbeitung unserer Sozialarbeitenden.
+Ausgangslage: Ein Angebot der Pro Senectute ist die Individuelle Finanzhilfe. Diese Unterstützung richtet sich an Personen im AHV-Alter, die sich in einer finanziellen Notlage befinden, und wird von der Pro Senectute im Auftrag des Bundes bereitgestellt. Sie bietet Unterstützung bei dringend notwendigen Ausgaben, welche weder durch private Mittel noch durch die Sozialversicherung gedeckt werden können. Die Anträge für Individuelle Finanzhilfe werden von der Pro Senectute geprüft. Diese Anträge werden nicht nach Lust und Laune bewilligt… hierzu gibt es strenge und komplizierte Reglemente, welche eingehalten werden müssen. Diese Reglemente erschweren die Einarbeitung unserer Sozialarbeitenden. Kontroller kontrolliert die Anträge und lehnt diese ab, falls gemäss Statuten die Hilfe nicht erlaubt wäre.
+
 
 Zielsetzung: Entwickeln einer KI-Gestützten Suchmaschine für die Reglemente der Individuellen Finanzhilfe, welche genaue und zuverlässige Antworten gibt. Die Suchmaschine soll in der Lage sein, eine Quelle der gegebenen Antworten zu geben (z.B. “Dokument” Abschnitt 1, Ziffer 2). Es soll die Möglichkeit geben, diese Suchmaschine einfach auf andere Reglemente zu erweitern (z.B. Internes Personalreglement).
+
+Problem: Social worker (SW) needs to make sure not to make mistakes, pay too much, make a wrong payment, based on statutes to help the client. If SW would get the right information the decision would be bettet.
+
 
 Ressourcen:
 
@@ -25,10 +29,28 @@ Using a RAG (retrieval augmented generation) AI assisstant that discects the doc
 A Webpage Solution for the intranet of the organisation would be most optimal.
 It should run on a microsoft server in the the data center. 
  Output would be a text answers, perhaps with links, name of the document, page and or citation of the text section containing the refered information.
+ Try to use API for an LLM for RAG that is free/open source.
 
 Open questions:
 - Hardware, Software, Solition requirements?
 Social Worker has a MS windows 11 OS without GPU to run a LLM solutution on premise.
 A browser solution would be bettet.
 
+- What should be the input in the AI assistant?
+SW should make a question and use the data.
+
+- SW who is he, new worker or experienced worker, decide on the 
+
+Ziemlich ähnliche Fragen:
+Antonella Sandri
+
+1. Was muss ich beachten, wenn ich ein Hörgerät beantrage?
+Es muss einfach zweckmässig sein, im Verhältis kosten, man mus subsidirität beachten, ahv, man muss akblären of kranken kasse zahl, man braucht offerte, man muss service vertrag. 
+
+2. Welche Unterlagen benötige ich für ein Gesuch, wenn ich Nebenkosten beantrage?
+3. Ist ein Ehepaar mit einer AHV Rent 4000 plis PK Rente 2000.- berechtigt IFH zu beantragen, grundsätzlich?
+4. Ein Klient hat eine Rechnung von 3000.- für Nebenkosten Wohnnebenkosten, diese Rechnung wurde vor 6 Monaten bezahlt, kann ich diese Gelder über IF beantragen?
+5. Schreibe mir ein Gesuch, für eine Brille, das Gesuch beinhaltet, Ausgangslage, Ziel, Subsidiarität, Partizipation?
+
+Keine Logik hat es gegeben, für 
 
