@@ -45,14 +45,21 @@ State of dev: 6pm friday, we have a gradio app with qwq model that uses rag and 
 ![alt text](image-2.png)
 
 To do list:
+- Make gradio app usable from the web for testing purposes
 - Make sure that all documents in folder are being loaded and used for processing
 - create a button for clearing the input
-- Define a template for the prompt: like "I am a new SW at Pro Senectute help me answer this question...
+- make sure to print in a foldable window with all the chunks is has used for generation 
+- alles auf Deutsch
 - Instruct RAG to reference to the document, page and text section that it refers to.
-- Make gradio app usable from the web for testing purposes
-- Test the example questions and save the output
-- Define a file for prompt_template for development
+
+
+- Define a template for the prompt: like "I am a new SW at Pro Senectute help me answer this question... (Mateo)
+- Test the example questions and save the output (Mateo)
+- Define a file for prompt_template for development (Dragan)
+
+nice to have:
 - create a feature to be able to save the queries/prompts for further use
+- create a feature to load additional documents beside the available ones
 
 Open questions:
 - Hardware, Software, Solition requirements?
