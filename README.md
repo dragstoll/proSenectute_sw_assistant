@@ -30,6 +30,10 @@ A Webpage Solution for the intranet of the organisation would be most optimal.
 It should run on a microsoft server in the the data center. 
  Output would be a text answers, perhaps with links, name of the document, page and or citation of the text section containing the refered information.
  Try to use API for an LLM for RAG that is free/open source.
+ 
+ For presentation show an example, we had a question, what happens do this, RAG model going from one step to another, like a framework, there are different ways, or one or two approach.
+
+![alt text](image.png)
 
 Open questions:
 - Hardware, Software, Solition requirements?
@@ -39,10 +43,10 @@ A browser solution would be bettet.
 - What should be the input in the AI assistant?
 SW should make a question and use the data.
 
-- SW who is he, new worker or experienced worker, decide on the 
+- SW who is he, new worker or experienced worker, decide on the. Focus on new worker and their needs, more generic questions not on experienced with very speciall questions.
 
-Ziemlich ähnliche Fragen:
-Antonella Sandri
+Es sind ziemlich ähnliche Fragen, welche :
+Antonella Sandri ist eine Sozialarbeitende, welche helfen könnte zu testen.
 
 1. Was muss ich beachten, wenn ich ein Hörgerät beantrage?
 Es muss einfach zweckmässig sein, im Verhältis kosten, man mus subsidirität beachten, ahv, man muss akblären of kranken kasse zahl, man braucht offerte, man muss service vertrag. 
