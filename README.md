@@ -44,6 +44,16 @@ We tested it, it gives o.k. answers, but need some improvement on the clear refe
 State of dev: 6pm friday, we have a gradio app with qwq model that uses rag and one document and gives good answer:
 ![alt text](image-2.png)
 
+To do list:
+- Make sure that all documents in folder are being loaded and used for processing
+- create a button for clearing the input
+- Define a template for the prompt: like "I am a new SW at Pro Senectute help me answer this question...
+- Instruct RAG to reference to the document, page and text section that it refers to.
+- Make gradio app usable from the web for testing purposes
+- Test the example questions and save the output
+- Define a file for prompt_template for development
+- create a feature to be able to save the queries/prompts for further use
+
 Open questions:
 - Hardware, Software, Solition requirements?
 Social Worker has a MS windows 11 OS without GPU to run a LLM solutution on premise.
