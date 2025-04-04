@@ -108,6 +108,9 @@ WICHTIGE DOKUMENTE:
 2.	Weitere hochgeladene Dokumente
 
 ANTWORTFORMAT:
+
 •	Antworten immer auf Deutsch
+
 •	Strukturierte und detaillierte Antworten
+
 •	Quellenangabe in folgendem Format: "Dokument [Nummer], Abschnitt [Nummer], Seite [Nummer]"
