@@ -6,6 +6,7 @@ from langchain_community.llms.mlx_pipeline import MLXPipeline
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_core.prompts import ChatPromptTemplate
 from langchain.chains import create_retrieval_chain
+import gradio as gr
 
 document = PyPDFLoader("./documents/WegleitungRIF01012025.pdf").load()
 documents = RecursiveCharacterTextSplitter(
@@ -25,7 +26,8 @@ retriever = vectorstore.as_retriever(search_type="similarity", search_kwargs={"k
 
 llm = MLXPipeline.from_model_id(
     "mlx-community/QwQ-32B-4bit",
-    pipeline_kwargs={"max_tokens": 2000, "temp": 1.0},
+    #   "mlx-community/gemma-3-27b-it-4bit",
+    pipeline_kwargs={"max_tokens": 1000, "temp": 0.1},
 )
 
 template = """
@@ -38,6 +40,19 @@ prompt = ChatPromptTemplate.from_template(template)
 doc_chain = create_stuff_documents_chain(llm, prompt)
 chain = create_retrieval_chain(retriever, doc_chain)
 
-response = chain.invoke({"input": "Was muss ich beachten, wenn ich ein Hörgerät beantrage?"})
+# Function to handle user queries
+def ask_question(query):
+    response = chain.invoke({"input": query})
+    return response["answer"]
 
-print(response["answer"])
+# Gradio app
+if __name__ == "__main__":
+    with gr.Blocks() as app:
+        gr.Markdown("# AI Assistant with RAG-based Document Search")
+        query_input = gr.Textbox(label="Ask a question about the documents")
+        response_output = gr.Textbox(label="Answer", interactive=False)
+        ask_button = gr.Button("Ask")
+        ask_button.click(ask_question, inputs=[query_input], outputs=[response_output])
+
+    # Launch the app with explicit host and port
+    app.launch(server_name="0.0.0.0", server_port=7860)

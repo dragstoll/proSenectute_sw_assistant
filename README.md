@@ -41,6 +41,9 @@ We tested it, it gives o.k. answers, but need some improvement on the clear refe
 
 ![alt text](image-1.png)
 
+State of dev: 6pm friday, we have a gradio app with qwq model that uses rag and one document and gives good answer:
+![alt text](image-2.png)
+
 Open questions:
 - Hardware, Software, Solition requirements?
 Social Worker has a MS windows 11 OS without GPU to run a LLM solutution on premise.
