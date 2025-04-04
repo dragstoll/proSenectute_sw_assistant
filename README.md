@@ -49,13 +49,13 @@ State of dev: 10pm going home:
 
 
 To do list:
-- Make gradio app usable from the web for testing purposes
-- Make sure that all documents in folder are being loaded and used for processing
-- create a button for clearing the input
+- (not ok) Make gradio app usable from the web for testing purposes
+- (ok) Make sure that all documents in folder are being loaded and used for processing
+- (ok) create a button for clearing the input
 - make sure to print in a foldable window with all the chunks is has used for generation 
-- alles auf Deutsch
+- (ok) alles auf Deutsch
 - Instruct RAG to reference to the document, page and text section that it refers to.
-
+- (ok) showing examples for questions
 
 - Define a template for the prompt: like "I am a new SW at Pro Senectute help me answer this question... (Mateo)
 - Test the example questions and save the output (Mateo)
@@ -83,6 +83,14 @@ Es muss einfach zweckmässig sein, im Verhältis kosten, man mus subsidirität b
 Quelle, in der Wegleitung RIF Anhang H, und in den Handlungsempfehlungen PS CH udn PS AG pdf, Seite 6 Hörgeräte erwähnt.  
 
 2. Welche Unterlagen benötige ich für ein Gesuch, wenn ich Nebenkosten beantrage?
+Antwort: " Für ein Gesuch zur Beantragung von Nebenkosten im Rahmen der Individuellen Finanzhilfe bei Pro Senectute benötigen Sie folgende Unterlagen:
+
+1. **Verfügung der Ergänzungsleistungen inkl. Berechnungsblatt**: Dieses Dokument zeigt die finanzielle Situation der gesuchstellenden Person und ist ein wesentlicher Bestandteil des Gesuchs.
+2. **Weitere Belege über die finanzielle Situation**: Dies können rechtskräftige Steuerveranlagungen, Bankbelege oder andere Dokumente sein, die die finanziellen Verhältnisse belegen.
+3. **Belege der beantragten Kosten**: Dies können Rechnungen, Kostenvoranschläge oder andere Dokumente sein, die die Nebenkosten belegen.
+
+Quellenangabe: Pro Senectute Schweiz, Individuelle Finanzhilfe beantragen – Vorgehen und benötigte Unterlagen, Abschnitt "Gesuche werden grundsätzlich im Rahmen einer Sozialberatung bei Pro Senectute gestellt", Seite 2."
+
 3. Ist ein Ehepaar mit einer AHV Rent 4000 plis PK Rente 2000.- berechtigt IFH zu beantragen, grundsätzlich?
 4. Ein Klient hat eine Rechnung von 3000.- für Nebenkosten Wohnnebenkosten, diese Rechnung wurde vor 6 Monaten bezahlt, kann ich diese Gelder über IF beantragen?
 5. Schreibe mir ein Gesuch, für eine Brille, das Gesuch beinhaltet, Ausgangslage, Ziel, Subsidiarität, Partizipation?

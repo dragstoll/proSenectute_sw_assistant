@@ -45,7 +45,8 @@ if __name__ == "__main__":
         # "mlx-community/QwQ-32B-4bit",
         #   "mlx-community/gemma-3-27b-it-4bit",
     #    "mlx-community/Qwen2.5-32B-Instruct-4bit",
-    "mlx-community/Mistral-Large-Instruct-2407-4bit",
+    # "mlx-community/Mistral-Large-Instruct-2407-4bit",
+    "mlx-community/Mistral-Small-24B-Instruct-2501-4bit",
         pipeline_kwargs={"max_tokens": 512, "temp": 0.1},
     )
 
@@ -71,7 +72,7 @@ if __name__ == "__main__":
         gr.Markdown("## Beispiel: \"Was muss ich beachten, wenn ich ein Hörgerät beantrage?\"")
         gr.Markdown("## Beispiel: \"Ist ein Ehepaar mit einer AHV Rente von 4000.- plus Pensionskasse Rente von 2000.- berechtigt individuelle Finanzhilfe zu beantragen, grundsätzlich?\"")
         response_output = gr.Textbox(label="Anwort", interactive=False)
-        ask_button = gr.Button("Ausführhen")  # Changed to "Ausführen"
+        ask_button = gr.Button("Ausführen")  # Changed to "Ausführen"
         clear_button = gr.Button("Lösche die Antwort")  # Changed to clear the answer field
 
         ask_button.click(ask_question, inputs=[query_input], outputs=[response_output])
