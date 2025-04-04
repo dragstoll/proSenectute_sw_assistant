@@ -14,13 +14,22 @@ def load_all_documents(folder_path):
     documents = []
     for file in Path(folder_path).glob("*.pdf"):
         loader = PyPDFLoader(str(file))
-        documents.extend(loader.load())
+        loaded_docs = loader.load()
+        for doc in loaded_docs:
+            doc.metadata["source"] = file.name  # Add document name to metadata
+        documents.extend(loaded_docs)
     return documents
 
 # Function to handle user queries
 def ask_question(query):
     response = chain.invoke({"input": query})
     return response["answer"]
+
+# Function to handle user queries and return both the answer and the chunks used
+def ask_question_with_chunks(query):
+    response = chain.invoke({"input": query})
+    chunks_used = response.get("context", "Keine verwendeten Textabschnitte gefunden.")
+    return response["answer"], chunks_used
 
 # Gradio app
 if __name__ == "__main__":
@@ -30,6 +39,12 @@ if __name__ == "__main__":
         chunk_size=1500,
         chunk_overlap=100,
     ).split_documents(document)
+
+    # Append document name and page number to each chunk
+    for doc in documents:
+        source = doc.metadata.get("source", "Unbekanntes Dokument")
+        page = doc.metadata.get("page", "Unbekannte Seite")
+        doc.page_content += f" ({source}, Seite {page})"
 
     embeddings = HuggingFaceEmbeddings(
         model_name="sentence-transformers/all-MiniLM-L6-v2",
@@ -65,18 +80,30 @@ if __name__ == "__main__":
     doc_chain = create_stuff_documents_chain(llm, prompt)
     chain = create_retrieval_chain(retriever, doc_chain)
 
-    with gr.Blocks() as app:
+    with gr.Blocks(css=".gradio-container { font-size: 10px; }") as app:
         gr.Markdown("# Pro Senectute Suchassistent zur individuelle Finanzhilfe für Sozialarbeitende")
         query_input = gr.Textbox(label="Formuliere deine Frage", placeholder="Was möchtest du wissen?", lines=2)
-        gr.Markdown("## Beispiel: \"Welche Unterlagen benötige ich für ein Gesuch, wenn ich Nebenkosten beantrage?\"")
-        gr.Markdown("## Beispiel: \"Was muss ich beachten, wenn ich ein Hörgerät beantrage?\"")
-        gr.Markdown("## Beispiel: \"Ist ein Ehepaar mit einer AHV Rente von 4000.- plus Pensionskasse Rente von 2000.- berechtigt individuelle Finanzhilfe zu beantragen, grundsätzlich?\"")
-        response_output = gr.Textbox(label="Anwort", interactive=False)
+        gr.Markdown("## Beispiel: \"Welche Unterlagen benötige ich für ein Gesuch, wenn ich Nebenkosten beantrage?\"", elem_id="example1")
+        gr.Markdown("## Beispiel: \"Was muss ich beachten, wenn ich ein Hörgerät beantrage?\"", elem_id="example2")
+        gr.Markdown("## Beispiel: \"Ist ein Ehepaar mit einer AHV Rente von 4000.- plus Pensionskasse Rente von 2000.- berechtigt individuelle Finanzhilfe zu beantragen, grundsätzlich?\"", elem_id="example3")
+
+        # Add custom CSS to change font size to 12px
+        app.css += """
+        #example1, #example2, #example3 {
+            font-size: 12px;
+        }
+        """
+        response_output = gr.Textbox(label="Antwort", interactive=False)
+        chunks_output = gr.Textbox(label="Verwendete Textabschnitte", interactive=False, lines=10, visible=False)
         ask_button = gr.Button("Ausführen")  # Changed to "Ausführen"
         clear_button = gr.Button("Lösche die Antwort")  # Changed to clear the answer field
 
-        ask_button.click(ask_question, inputs=[query_input], outputs=[response_output])
-        clear_button.click(lambda: "", inputs=[], outputs=[response_output])  # Clear answer field
+        ask_button.click(
+            ask_question_with_chunks, 
+            inputs=[query_input], 
+            outputs=[response_output, chunks_output]
+        )
+        clear_button.click(lambda: ("", ""), inputs=[], outputs=[response_output, chunks_output])
 
     # Launch the app with explicit host, port, and public sharing enabled
-    app.launch(server_name="0.0.0.0", server_port=7860, share=True)
+    app.launch(server_name="0.0.0.0", server_port=7860, share=False)
