@@ -1,0 +1,117 @@
+2025-04-05 08:34:11,708 - INFO - Logging setup complete. Starting application...
+2025-04-05 08:34:11,858 - INFO - HTTP Request: GET https://api.gradio.app/gradio-messaging/en "HTTP/1.1 200 OK"
+2025-04-05 08:34:14,877 - INFO - PyTorch version 2.5.1 available.
+2025-04-05 08:34:15,142 - INFO - Use pytorch device_name: mps
+2025-04-05 08:34:15,142 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-05 08:34:17,806 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-04-05 08:34:19,650 - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-04-05 08:34:19,656 - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-04-05 08:34:20,352 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-04-05 08:34:49,234 - INFO - User query: Was muss ich beachten, wenn ich ein Hörgerät beantrage?
+2025-04-05 08:35:13,625 - INFO - Response: Wenn du ein Hörgerät beantragen möchtest, musst du folgende Punkte beachten:
+
+1. **Medizinisches Gutachten**: Es muss ein medizinisches Gutachten eines Hals-Nasen-Ohren-Arztes (HNO) oder ein Entscheid für einen IV-Beitrag vorliegen (WegleitungRIF01012025.pdf, Seite 20).
+
+2. **Vergleichsofferte**: Bei Kosten über CHF 1'000.- ist eine Vergleichsofferte erforderlich. Diese muss eingeholt werden (WegleitungRIF01012025.pdf, Seite 20).
+
+3. **Beratung**: Es sollte eine differenzierte Beratung bezüglich der geeigneten Hörhilfe erfolgen (WegleitungRIF01012025.pdf, Seite 20).
+
+4. **Finanzielle Unterstützung**: Hörgerätebeiträge können über die Individuelle Finanzhilfe (IF) gewährt werden. Es sind jedoch die Leistungen der AHV und allfällige Leistungen im Rahmen der Krankheits- und Behinderungskosten gemäss Art. 14 ELG zu berücksichtigen. Sollten durch die AHV-Pauschale und allenfalls weiteren Leistungen der EL oder von Zusatzversicherungen keine einfache und zweckmäßige Versorgung möglich sein, können über die IF-Beiträge für Hörgeräte gesprochen werden (2025_IF_Handlungsempfehlungen PS CH und PS AG.pdf, Seite 5).
+
+5. **Prioritätenliste**: Notwendige Gesundheitskosten, einschließlich Hörgeräte, haben eine hohe Priorität bei der Vergabe der Individuellen Finanzhilfe (2025_IF_Handlungsempfehlungen PS CH und PS AG.pdf, Seite 11).
+
+6. **Kostenübernahme**: Die maximal anrechenbaren Kosten für Hörgeräte variieren je nach Art der Versorgung (monaural oder binaural) und ob sie mit Akku betrieben werden. Die genauen Beträge sind in der Wegleitung zum RIF (WegleitungRIF01012025.pdf, Seite 20) aufgeführt.
+
+Diese Punkte sollten bei der Beantragung eines Hörgeräts berücksichtigt werden, um sicherzustellen, dass alle notwendigen Voraussetzungen erfüllt sind und die finanzielle Unterstützung gewährt werden kann.
+2025-04-05 08:38:09,842 - INFO - Logging setup complete. Starting application...
+2025-04-05 08:38:27,882 - INFO - PyTorch version 2.5.1 available.
+2025-04-05 08:38:29,531 - INFO - Use pytorch device_name: mps
+2025-04-05 08:38:29,531 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-05 08:38:34,157 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-04-05 08:38:36,702 - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-04-05 08:38:36,746 - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-04-05 08:38:37,256 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-04-05 08:39:00,076 - INFO - User query: Was muss ich beachten, wenn ich ein Hörgerät beantrage?
+2025-04-05 08:39:24,399 - INFO - Response: Um ein Hörgerät bei Pro Senectute Aargau zu beantragen, müssen mehrere wichtige Punkte beachtet werden:
+
+1. **Medizinisches Gutachten**: Es muss ein medizinisches Gutachten eines Hals-Nasen-Ohren-Arztes (HNO) oder ein Entscheid für einen IV-Beitrag vorliegen (WegleitungRIF01012025.pdf, Seite 20).
+
+2. **Vergleichsofferte**: Bei Kosten über CHF 1'000.- ist eine Vergleichsofferte erforderlich. Diese muss eingeholt werden (WegleitungRIF01012025.pdf, Seite 20).
+
+3. **Beratung**: Es sollte eine differenzierte Beratung bezüglich der geeigneten Hörhilfe erfolgen (WegleitungRIF01012025.pdf, Seite 20).
+
+4. **Finanzielle Unterstützung**: Beiträge an Hörgeräte können über die Individuelle Finanzhilfe (IF) gewährt werden. Dabei sind die Leistungen der AHV und allfällige Leistungen im Rahmen der Krankheits- und Behinderungskosten gemäss Art. 14 ELG zu berücksichtigen. Sollten durch die AHV-Pauschale und allenfalls weiteren Leistungen der EL oder von Zusatzversicherungen keine einfache und zweckmäßige Versorgung möglich sein, können über die IF-Beiträge für Hörgeräte gesprochen werden (2025_IF_Handlungsempfehlungen PS CH und PS AG.pdf, Seite 5).
+
+5. **Prioritätenliste**: Notwendige Gesundheitskosten, einschließlich Hörgeräte, haben eine hohe Priorität bei der Vergabe der finanziellen Hilfen (2025_IF_Handlungsempfehlungen PS CH und PS AG.pdf, Seite 11).
+
+6. **Kostenübernahme**: Die maximal anrechenbaren Kosten für Hörgeräte variieren je nach Art der Versorgung (monaural oder binaural) und ob sie mit Akku betrieben werden. Die genauen Beträge sind in der Wegleitung zum RIF (WegleitungRIF01012025.pdf, Seite 20) aufgeführt.
+
+Diese Punkte sollten bei der Beantragung eines Hörgeräts berücksichtigt werden, um eine reibungslose und erfolgreiche Abwicklung zu gewährleisten.
+2025-04-05 08:41:13,294 - INFO - Logging setup complete. Starting application...
+2025-04-05 08:41:13,367 - INFO - HTTP Request: GET https://api.gradio.app/gradio-messaging/en "HTTP/1.1 200 OK"
+2025-04-05 08:41:16,405 - INFO - PyTorch version 2.5.1 available.
+2025-04-05 08:41:16,623 - INFO - Use pytorch device_name: mps
+2025-04-05 08:41:16,623 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-05 08:41:19,478 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-04-05 08:41:21,371 - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-04-05 08:41:21,377 - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-04-05 08:41:22,072 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-04-05 08:41:39,435 - INFO - User query: Was muss ich beachten, wenn ich ein Hörgerät beantrage?
+2025-04-05 08:42:08,662 - INFO - Response: Wenn du ein Hörgerät beantragen möchtest, musst du mehrere wichtige Punkte beachten:
+
+1. **Medizinisches Gutachten**: Es muss ein medizinisches Gutachten eines Hals-Nasen-Ohren-Arztes (HNO) oder ein Entscheid für einen IV-Beitrag vorliegen (WegleitungRIF01012025.pdf, Seite 20).
+
+2. **Vergleichsofferte**: Bei Kosten über CHF 1'000.- ist eine Vergleichsofferte erforderlich. Diese muss eingeholt werden (WegleitungRIF01012025.pdf, Seite 20).
+
+3. **Beratung**: Es sollte eine differenzierte Beratung bezüglich der geeigneten Hörhilfe erfolgen (WegleitungRIF01012025.pdf, Seite 20).
+
+4. **Finanzielle Unterstützung**: Hörgerätebeiträge können über die Individuelle Finanzhilfe (IF) gewährt werden. Es sind jedoch die Leistungen der AHV und allfällige Leistungen im Rahmen der Krankheits- und Behinderungskosten gemäss Art. 14 ELG zu berücksichtigen. Sollten durch die AHV-Pauschale und allenfalls weiteren Leistungen der EL oder von Zusatzversicherungen keine einfache und zweckmäßige Versorgung möglich sein, können über die IF-Beiträge für Hörgeräte gesprochen werden (2025_IF_Handlungsempfehlungen PS CH und PS AG.pdf, Seite 5).
+
+5. **Prioritätenliste**: Notwendige Gesundheitskosten, einschließlich Hörgeräte, haben eine hohe Priorität bei der Vergabe der Individuellen Finanzhilfe (2025_IF_Handlungsempfehlungen PS CH und PS AG.pdf, Seite 11).
+
+6. **Bezugsberechtigung**: Die Individuelle Finanzhilfe kann von Schweizer Bürgerinnen und Bürgern im AHV-Referenzalter mit Wohnsitz in der Schweiz, Bürgerinnen und Bürgern eines Mitgliedstaats der EU oder EFTA im AHV-Referenzalter mit Wohnsitz in der Schweiz sowie Personen anderer Staaten im AHV-Referenzalter nach fünfjährigem ununterbrochenem Aufenthalt in der Schweiz beantragt werden (Merkblatt_Individuelle_Finanzhilfe.pdf, Seite 0).
+
+7. **Unterlagen**: Zu den notwendigen Unterlagen eines Gesuchs gehören u.a. eine Verfügung der Ergänzungsleistungen inkl. Berechnungsblatt, weitere Belege über die finanzielle Situation der gesuchstellenden Person sowie Belege der beantragten Kosten (Merkblatt_Individuelle_Finanzhilfe.pdf, Seite 1).
+
+8. **Vorschusszahlung**: Die beantragte Leistung der Individuellen Finanzhilfe (IF) ist eine Vorschusszahlung für beantragte künftige Leistungen einer Sozial- oder Privatversicherung. Die Bevorschussung wird im Sinne eines zinslosen Darlehens gewährt (WegleitungRIF01012025.pdf, Seite 22).
+2025-04-05 08:43:34,644 - INFO - User query: Was muss ich beachten, wenn ich ein Hörgerät beantrage?
+2025-04-05 08:43:59,340 - INFO - Response: Wenn du ein Hörgerät beantragst, musst du folgende Punkte beachten:
+
+1. **Medizinisches Gutachten**: Es muss ein medizinisches Gutachten eines Hals-Nasen-Ohren-Arztes (HNO) oder ein Entscheid für einen IV-Beitrag vorliegen (WegleitungRIF01012025.pdf, Seite 20).
+
+2. **Vergleichsofferte**: Bei Kosten über CHF 1'000.- ist eine Vergleichsofferte erforderlich. Diese muss eingeholt werden (WegleitungRIF01012025.pdf, Seite 20).
+
+3. **Beratung**: Es sollte eine differenzierte Beratung bezüglich der geeigneten Hörhilfe erfolgen (WegleitungRIF01012025.pdf, Seite 20).
+
+4. **Finanzielle Unterstützung**: Hörgerätebeiträge können über die Individuelle Finanzhilfe (IF) gewährt werden. Es sind jedoch die Leistungen der AHV und allfällige Leistungen im Rahmen der Krankheits- und Behinderungskosten gemäss Art. 14 ELG zu berücksichtigen. Sollten durch die AHV-Pauschale und allenfalls weiteren Leistungen der EL oder von Zusatzversicherungen keine einfache und zweckmässige Versorgung möglich sein, können über die IF-Beiträge für Hörgeräte gesprochen werden (2025_IF_Handlungsempfehlungen PS CH und PS AG.pdf, Seite 5).
+
+5. **Prioritätenliste**: Notwendige Gesundheitskosten, medizinische Hilfsmittel wie Hörgeräte haben eine hohe Priorität bei der finanziellen Unterstützung (2025_IF_Handlungsempfehlungen PS CH und PS AG.pdf, Seite 11).
+
+6. **Kostenübernahme**: Die maximal anrechenbaren Kosten für Hörgeräte variieren je nach Art der Versorgung (monaural oder binaural) und ob sie mit Akku betrieben werden. Die genauen Beträge sind in der Wegleitung zum RIF (WegleitungRIF01012025.pdf, Seite 20) aufgeführt.
+
+Diese Punkte sollten bei der Beantragung eines Hörgeräts berücksichtigt werden, um eine reibungslose Abwicklung und maximale finanzielle Unterstützung zu gewährleisten.
+2025-04-05 08:45:51,184 - INFO - Logging setup complete. Starting application...
+2025-04-05 08:45:51,258 - INFO - HTTP Request: GET https://api.gradio.app/gradio-messaging/en "HTTP/1.1 200 OK"
+2025-04-05 08:45:54,264 - INFO - PyTorch version 2.5.1 available.
+2025-04-05 08:45:54,523 - INFO - Use pytorch device_name: mps
+2025-04-05 08:45:54,523 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-05 08:45:56,776 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-04-05 08:45:58,627 - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-04-05 08:45:58,633 - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-04-05 08:45:59,335 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-04-05 08:46:09,507 - INFO - User query: Was muss ich beachten, wenn ich ein Hörgerät beantrage?
+2025-04-05 08:46:35,889 - INFO - Response: Wenn du ein Hörgerät beantragen möchtest, musst du folgende Punkte beachten:
+
+1. **Medizinisches Gutachten**: Es muss ein medizinisches Gutachten eines Hals-Nasen-Ohren-Arztes (HNO) oder ein Entscheid für einen IV-Beitrag vorliegen (WegleitungRIF01012025.pdf, Seite 20).
+
+2. **Vergleichsofferte**: Bei Kosten über CHF 1'000.- ist eine Vergleichsofferte erforderlich. Diese muss eingeholt werden (WegleitungRIF01012025.pdf, Seite 20).
+
+3. **Beratung**: Es sollte eine differenzierte Beratung bezüglich der geeigneten Hörhilfe erfolgen (WegleitungRIF01012025.pdf, Seite 20).
+
+4. **Finanzielle Unterstützung**: Hörgerätebeiträge können über die Individuelle Finanzhilfe (IF) gewährt werden. Es sind jedoch die Leistungen der AHV und allfällige Leistungen im Rahmen der Krankheits- und Behinderungskosten gemäss Art. 14 ELG zu berücksichtigen. Sollten durch die AHV-Pauschale und allenfalls weiteren Leistungen der EL oder von Zusatzversicherungen keine einfache und zweckmäßige Versorgung möglich sein, so können über die IF-Beiträge für Hörgeräte gesprochen werden (2025_IF_Handlungsempfehlungen PS CH und PS AG.pdf, Seite 5).
+
+5. **Prioritätenliste**: Notwendige Gesundheitskosten, einschließlich Hörgeräte, haben eine hohe Priorität bei der Vergabe der Individuellen Finanzhilfe (2025_IF_Handlungsempfehlungen PS CH und PS AG.pdf, Seite 11).
+
+6. **Kostenübernahme**: Die maximal anrechenbaren Kosten für Hörgeräte variieren je nach Art der Versorgung (monaural oder binaural) und ob sie mit Akku betrieben werden. Die genauen Beträge sind in der Wegleitung zum RIF (WegleitungRIF01012025.pdf, Seite 20) aufgeführt.
+
+7. **Beantragung**: Gesuche werden grundsätzlich im Rahmen einer Sozialberatung bei Pro Senectute gestellt. Die Beratung ist kostenlos. Zu den notwendigen Unterlagen eines Gesuchs gehören u.a. eine Verfügung der Ergänzungsleistungen inkl. Berechnungsblatt, weitere Belege über die finanzielle Situation der gesuchstellenden Person sowie Belege der beantragten Kosten (Merkblatt_Individuelle_Finanzhilfe.pdf, Seite 1).

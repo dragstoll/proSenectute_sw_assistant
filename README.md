@@ -55,6 +55,7 @@ To do list:
 - (ok) alles auf Deutsch
 - (ok) Instruct RAG to reference to the document, page and text section that it refers to.
 - (ok) showing examples for questions
+- create an option to chose between most relevant clues for the question (k=3-5, temp=0.1, different prompt) or most of clues (k=20, temp=0.6, openly formulated propmt) 
 
 - (ok) Define a template for the prompt: like "I am a new SW at Pro Senectute help me answer this question... (Mateo)
 - Test the example questions and save the output (Mateo)
@@ -64,6 +65,7 @@ To do list:
 - make a version running on a linux server
 - test bigger models 100B+ for inference (with larger GPUs)
 - analyze caseexamples for usable questions to ask
+- log every session in a log_file
 
 
 

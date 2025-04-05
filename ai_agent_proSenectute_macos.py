@@ -8,6 +8,26 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain.chains import create_retrieval_chain
 import gradio as gr
 from pathlib import Path
+import logging
+import sys
+import json
+
+# Configure logging
+logging.basicConfig(
+    filename="gradio_assisstant_macos.log",
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    force=True,  # Ensure the logging configuration is applied
+)
+
+# Add a console handler to debug logging issues
+console_handler = logging.StreamHandler(sys.stdout)
+console_handler.setLevel(logging.INFO)
+console_handler.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(message)s"))
+logging.getLogger().addHandler(console_handler)
+
+# Test logging setup
+logging.info("Logging setup complete. Starting application...")
 
 # Load and process all PDF documents from the subfolder
 def load_all_documents(folder_path):
@@ -20,6 +40,23 @@ def load_all_documents(folder_path):
         documents.extend(loaded_docs)
     return documents
 
+# Save chunks to a JSON file
+def save_chunks_to_file(chunks, file_path="chunks.json"):
+    try:
+        if not chunks:
+            logging.warning("No chunks to save. The chunks list is empty.")
+            return
+        with open(file_path, "w", encoding="utf-8") as f:
+            json.dump(
+                [{"content": chunk.page_content, "metadata": chunk.metadata} for chunk in chunks],
+                f,
+                ensure_ascii=False,
+                indent=4,
+            )
+        logging.info(f"Chunks successfully saved to {file_path}")
+    except Exception as e:
+        logging.error(f"Failed to save chunks to file: {e}")
+
 # Function to handle user queries
 def ask_question(query):
     response = chain.invoke({"input": query})
@@ -27,23 +64,44 @@ def ask_question(query):
 
 # Function to handle user queries and return only the answer
 def ask_question_with_chunks(query):
+    logging.info(f"User query: {query}")
     response = chain.invoke({"input": query})
-    return response["answer"]
+    answer = response["answer"]
+    logging.info(f"Response: {answer}")
+    logging.getLogger().handlers[0].flush()  # Explicitly flush logs to the file
+    return answer
 
 # Gradio app
 if __name__ == "__main__":
     folder_path = "./documents"
     document = load_all_documents(folder_path)
-    documents = RecursiveCharacterTextSplitter(
-        chunk_size=1000,
-        chunk_overlap=100,
-    ).split_documents(document)
+    if not document:
+        logging.error("No documents were loaded. Please check the folder path and document files.")
+    else:
+        logging.info(f"{len(document)} documents loaded successfully.")
 
-    # Append document name and page number to each chunk
-    for doc in documents:
-        source = doc.metadata.get("source", "Unbekanntes Dokument")
-        page = doc.metadata.get("page", "Unbekannte Seite")
-        doc.page_content += f" ({source}, Seite {page})"
+        try:
+            documents = RecursiveCharacterTextSplitter(
+                chunk_size=1000,
+                chunk_overlap=100,
+            ).split_documents(document)
+
+            if not documents:
+                logging.error("No chunks were created. Please check the document processing logic.")
+            else:
+                logging.info(f"{len(documents)} chunks created successfully.")
+
+                # Append document name and page number to each chunk
+                for doc in documents:
+                    source = doc.metadata.get("source", "Unbekanntes Dokument")
+                    page = doc.metadata.get("page", "Unbekannte Seite")
+                    doc.page_content += f" ({source}, Seite {page})"
+
+                # Save the chunks to a file
+                save_chunks_to_file(documents)
+
+        except Exception as e:
+            logging.error(f"Error during document splitting: {e}")
 
     embeddings = HuggingFaceEmbeddings(
         model_name="sentence-transformers/all-MiniLM-L6-v2",
@@ -101,7 +159,11 @@ if __name__ == "__main__":
             inputs=[query_input], 
             outputs=[response_output]
         )
-        clear_button.click(lambda: "", inputs=[], outputs=[response_output])
+        clear_button.click(
+            lambda: logging.info("Response cleared") or logging.getLogger().handlers[0].flush() or "", 
+            inputs=[], 
+            outputs=[response_output]
+        )
 
         # Example queries
         gr.Markdown("Beispiel: \"Welche Unterlagen benötige ich für ein Gesuch, wenn ich Nebenkosten beantrage?\"", elem_id="example1")
