@@ -55,17 +55,17 @@ To do list:
 - (ok) alles auf Deutsch
 - (ok) Instruct RAG to reference to the document, page and text section that it refers to.
 - (ok) showing examples for questions
-- create an option to chose between most relevant clues for the question (k=3-5, temp=0.1, different prompt) or most of clues (k=20, temp=0.6, openly formulated propmt) 
+- (ok) create an option to chose between most relevant clues for the question (k=3-5, temp=0.1, different prompt) or most of clues (k=20, temp=0.6, openly formulated propmt) 
 
 - (ok) Define a template for the prompt: like "I am a new SW at Pro Senectute help me answer this question... (Mateo)
-- Test the example questions and save the output (Mateo)
+- (ok) Test the example questions and save the output (Mateo/Anand)
 - (ok) Define a file for prompt_template for development (Dragan)
-- output the used chunks in a file for validation
-- make a presentation of our challenge (Mateo)
+- (ok) output the used chunks in a file for validation
+- (ok) make a presentation of our challenge (Mateo)
 - make a version running on a linux server
-- test bigger models 100B+ for inference (with larger GPUs)
+- (ok) test bigger models 100B+ for inference (with larger GPUs)
 - analyze caseexamples for usable questions to ask
-- log every session in a log_file
+- (ok) log every session in a log_file
 
 
 
