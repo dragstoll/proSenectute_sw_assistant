@@ -117,8 +117,8 @@ if __name__ == "__main__":
         # "mlx-community/QwQ-32B-4bit",
         #   "mlx-community/gemma-3-27b-it-4bit",
     #    "mlx-community/Qwen2.5-32B-Instruct-4bit",
-    # "mlx-community/Mistral-Large-Instruct-2407-4bit",
-    "mlx-community/Mistral-Small-24B-Instruct-2501-4bit",
+    "mlx-community/Mistral-Large-Instruct-2407-4bit",
+    # "mlx-community/Mistral-Small-24B-Instruct-2501-4bit",
         pipeline_kwargs={"max_tokens": 2024, "temp": 0.1},
     )
 

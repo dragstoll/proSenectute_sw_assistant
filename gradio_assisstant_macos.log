@@ -115,3 +115,212 @@ Diese Punkte sollten bei der Beantragung eines Hörgeräts berücksichtigt werde
 6. **Kostenübernahme**: Die maximal anrechenbaren Kosten für Hörgeräte variieren je nach Art der Versorgung (monaural oder binaural) und ob sie mit Akku betrieben werden. Die genauen Beträge sind in der Wegleitung zum RIF (WegleitungRIF01012025.pdf, Seite 20) aufgeführt.
 
 7. **Beantragung**: Gesuche werden grundsätzlich im Rahmen einer Sozialberatung bei Pro Senectute gestellt. Die Beratung ist kostenlos. Zu den notwendigen Unterlagen eines Gesuchs gehören u.a. eine Verfügung der Ergänzungsleistungen inkl. Berechnungsblatt, weitere Belege über die finanzielle Situation der gesuchstellenden Person sowie Belege der beantragten Kosten (Merkblatt_Individuelle_Finanzhilfe.pdf, Seite 1).
+2025-04-05 09:19:08,827 - INFO - Logging setup complete. Starting application...
+2025-04-05 09:19:10,275 - INFO - 112 documents loaded successfully.
+2025-04-05 09:19:10,279 - INFO - 295 chunks created successfully.
+2025-04-05 09:19:10,282 - INFO - Chunks successfully saved to chunks.json
+2025-04-05 09:19:26,029 - INFO - PyTorch version 2.5.1 available.
+2025-04-05 09:19:27,234 - INFO - Use pytorch device_name: mps
+2025-04-05 09:19:27,234 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-05 09:19:31,911 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-04-05 09:19:34,411 - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-04-05 09:19:34,491 - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-04-05 09:19:34,822 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-04-05 09:20:44,855 - INFO - User query: Was muss ich beachten, wenn ich ein Hörgerät beantrage?
+2025-04-05 09:21:12,445 - INFO - Response: Wenn du ein Hörgerät beantragen möchtest, musst du folgende Punkte beachten:
+
+1. **Medizinisches Gutachten**: Es muss ein medizinisches Gutachten eines Hals-Nasen-Ohren-Arztes (HNO) oder ein Entscheid für einen IV-Beitrag vorliegen (WegleitungRIF01012025.pdf, Seite 20).
+
+2. **Vergleichsofferte**: Bei Kosten über CHF 1'000.- ist eine Vergleichsofferte erforderlich. Diese muss eingeholt werden (WegleitungRIF01012025.pdf, Seite 20).
+
+3. **Beratung**: Es sollte eine differenzierte Beratung bezüglich der geeigneten Hörhilfe erfolgen (WegleitungRIF01012025.pdf, Seite 20).
+
+4. **Finanzielle Unterstützung**: Hörgerätebeiträge können über die Individuelle Finanzhilfe (IF) gewährt werden. Es sind jedoch die Leistungen der AHV und allfällige Leistungen im Rahmen der Krankheits- und Behinderungskosten gemäss Art. 14 ELG zu berücksichtigen. Sollten durch die AHV-Pauschale und allenfalls weiteren Leistungen der EL oder von Zusatzversicherungen keine einfache und zweckmäßige Versorgung möglich sein, können über die IF-Beiträge für Hörgeräte gesprochen werden (2025_IF_Handlungsempfehlungen PS CH und PS AG.pdf, Seite 5).
+
+5. **Prioritätenliste**: Notwendige Gesundheitskosten, einschließlich Hörgeräte, haben eine hohe Priorität bei der Vergabe der Individuellen Finanzhilfe (2025_IF_Handlungsempfehlungen PS CH und PS AG.pdf, Seite 11).
+
+6. **Kostenübernahme**: Die maximal anrechenbaren Kosten für Hörgeräte variieren je nach Art der Versorgung (monaural oder binaural) und ob sie mit Akku betrieben werden. Die genauen Beträge sind in der Wegleitung zum RIF (WegleitungRIF01012025.pdf, Seite 20) aufgeführt.
+
+7. **Bezugsberechtigung**: Die Individuelle Finanzhilfe kann von Schweizer Bürgerinnen und Bürgern im AHV-Referenzalter mit Wohnsitz in der Schweiz, Bürgerinnen und Bürgern eines Mitgliedstaats der EU oder EFTA im AHV-Referenzalter mit Wohnsitz in der Schweiz sowie Personen anderer Staaten im AHV-Referenzalter nach fünfjährigem ununterbrochenem Aufenthalt in der Schweiz beantragt werden (Merkblatt_Individuelle_Finanzhilfe.pdf, Seite 0).
+
+Diese Punkte sollten bei der Beantragung eines Hörgeräts berücksichtigt werden, um eine reibungslose Abwicklung und maximale Unterstützung zu gewährleisten.
+2025-04-05 09:44:42,214 - INFO - User query: Welche Unterlagen benötige ich für ein Gesuch, wenn ich Nebenkosten beantrage?
+2025-04-05 09:44:51,388 - INFO - User query: Welche Unterlagen benötige ich für ein Gesuch, wenn ich Nebenkosten beantrage?
+2025-04-05 09:45:06,459 - INFO - Logging setup complete. Starting application...
+2025-04-05 09:45:06,489 - INFO - HTTP Request: GET https://api.gradio.app/gradio-messaging/en "HTTP/1.1 200 OK"
+2025-04-05 09:45:07,608 - INFO - 112 documents loaded successfully.
+2025-04-05 09:45:07,611 - INFO - 295 chunks created successfully.
+2025-04-05 09:45:07,614 - INFO - Chunks successfully saved to chunks.json
+2025-04-05 09:45:09,487 - INFO - PyTorch version 2.5.1 available.
+2025-04-05 09:45:09,744 - INFO - Use pytorch device_name: mps
+2025-04-05 09:45:09,745 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-05 09:45:12,815 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-04-05 09:45:14,784 - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-04-05 09:45:14,790 - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-04-05 09:45:15,440 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-04-05 09:45:53,155 - INFO - User query: Welche Unterlagen benötige ich für ein Gesuch, wenn ich Nebenkosten beantrage?
+2025-04-05 09:46:06,292 - INFO - Response: Für ein Gesuch um Nebenkosten bei der Pro Senectute Aargau benötigen Sie folgende Unterlagen:
+
+1. **Verfügung der Ergänzungsleistungen inkl. Berechnungsblatt**: Dies ist notwendig, um die finanzielle Situation der gesuchstellenden Person zu beurteilen.
+2. **Weitere Belege über die finanzielle Situation**: Dazu gehören beispielsweise Kontoauszüge, Mietverträge, Versicherungsnachweise und andere relevante Dokumente.
+3. **Belege der beantragten Kosten**: Dies können Rechnungen, Quittungen oder andere Nachweise für die Nebenkosten sein, die Sie beantragen möchten.
+
+Quelle: Merkblatt_Individuelle_Finanzhilfe.pdf, Seite 1
+2025-04-05 09:47:14,001 - INFO - User query: Was muss ich beachten, wenn ich ein Hörgerät beantrage?
+2025-04-05 09:47:41,998 - INFO - Response: Wenn du ein Hörgerät beantragen möchtest, musst du folgende Punkte beachten:
+
+1. **Medizinisches Gutachten**: Es muss ein medizinisches Gutachten eines Hals-Nasen-Ohren-Arztes (HNO) oder ein Entscheid für einen IV-Beitrag vorliegen (WegleitungRIF01012025.pdf, Seite 20).
+
+2. **Vergleichsofferte**: Bei Kosten über CHF 1'000.- ist eine Vergleichsofferte erforderlich. Diese muss eingeholt werden (WegleitungRIF01012025.pdf, Seite 20).
+
+3. **Beratung**: Es sollte eine differenzierte Beratung bezüglich der geeigneten Hörhilfe erfolgen (WegleitungRIF01012025.pdf, Seite 20).
+
+4. **Finanzielle Unterstützung**: Hörgerätebeiträge können über die Individuelle Finanzhilfe (IF) gewährt werden. Es sind jedoch die Leistungen der AHV und allfällige Leistungen im Rahmen der Krankheits- und Behinderungskosten gemäss Art. 14 ELG zu berücksichtigen. Sollten durch die AHV-Pauschale und allenfalls weiteren Leistungen der EL oder von Zusatzversicherungen keine einfache und zweckmäßige Versorgung möglich sein, können über die IF-Beiträge für Hörgeräte gesprochen werden (2025_IF_Handlungsempfehlungen PS CH und PS AG.pdf, Seite 5).
+
+5. **Prioritätenliste**: Notwendige Gesundheitskosten, einschließlich Hörgeräte, haben eine hohe Priorität bei der Vergabe der Individuellen Finanzhilfe (2025_IF_Handlungsempfehlungen PS CH und PS AG.pdf, Seite 11).
+
+6. **Kostenübernahme**: Die maximal anrechenbaren Kosten für Hörgeräte variieren je nach Art der Versorgung (monaural oder binaural) und ob sie mit Akku betrieben werden. Die genauen Beträge sind in der Wegleitung zum RIF (WegleitungRIF01012025.pdf, Seite 20) aufgeführt.
+
+7. **Bezugsberechtigung**: Die Individuelle Finanzhilfe kann von Schweizer Bürgerinnen und Bürgern im AHV-Referenzalter mit Wohnsitz in der Schweiz, Bürgerinnen und Bürgern eines Mitgliedstaats der EU oder EFTA im AHV-Referenzalter mit Wohnsitz in der Schweiz sowie Personen anderer Staaten im AHV-Referenzalter nach fünfjährigem ununterbrochenem Aufenthalt in der Schweiz beantragt werden (Merkblatt_Individuelle_Finanzhilfe.pdf, Seite 0).
+
+Diese Punkte sollten bei der Beantragung eines Hörgeräts berücksichtigt werden, um sicherzustellen, dass alle notwendigen Voraussetzungen erfüllt sind und die Finanzierung durch die Individuelle Finanzhilfe möglich ist.
+2025-04-05 09:52:42,333 - INFO - User query: Welche Unterlagen benötige ich für ein Gesuch, wenn ich Nebenkosten beantrage?
+2025-04-05 09:52:55,306 - INFO - Response: Um ein Gesuch für Nebenkosten bei der Pro Senectute zu stellen, benötigen Sie folgende Unterlagen:
+
+1. **Verfügung der Ergänzungsleistungen inkl. Berechnungsblatt**: Diese Unterlagen sind notwendig, um die finanzielle Situation der gesuchstellenden Person zu beurteilen.
+2. **Weitere Belege über die finanzielle Situation**: Dazu gehören beispielsweise Kontoauszüge, Mietverträge, Rechnungen und andere Dokumente, die die finanzielle Lage der Person darstellen.
+3. **Belege der beantragten Kosten**: Dies können Rechnungen, Quittungen oder andere Nachweise für die Nebenkosten sein, die beantragt werden.
+
+Quelle: Dokument 1, Seite 1
+2025-04-05 09:53:28,924 - INFO - Response cleared
+2025-04-05 09:53:41,929 - INFO - User query: Ist ein Ehepaar mit einer AHV Rente von 4000.- plus Pensionskasse Rente von 2000.- berechtigt individuelle Finanzhilfe zu beantragen, grundsätzlich?
+2025-04-05 09:53:54,599 - INFO - Response: Ein Ehepaar mit einer AHV-Rente von 4000.- plus Pensionskasse Rente von 2000.- ist grundsätzlich berechtigt, individuelle Finanzhilfe zu beantragen. Die Voraussetzungen für die individuelle Finanzhilfe sind der Wohnsitz in der Schweiz, der Bezug einer AHV-Rente und die Bedürftigkeit. Das Ehepaar muss jedoch auch die Vermögensgrenzen einhalten, die in der Richtlinie Rz 4011 KSIU festgelegt sind. Für Paare beträgt die Vermögensgrenze 20'000.- (Merkblatt_Individuelle_Finanzhilfe.pdf, Seite 0).
+2025-04-05 10:14:10,108 - INFO - User query: ESchreibe mir ein Gesuch, für eine Brille, das Gesuch beinhaltet, Ausgangslage, Ziel, Subsidiarität, Partizipation?
+2025-04-05 10:14:28,210 - INFO - User query: ESchreibe mir ein Gesuch, für eine Brille, das Gesuch beinhaltet, Ausgangslage, Ziel, Subsidiarität, Partizipation?
+2025-04-05 10:15:01,602 - INFO - Response cleared
+2025-04-05 10:15:02,819 - INFO - Response cleared
+2025-04-05 10:15:23,983 - INFO - Logging setup complete. Starting application...
+2025-04-05 10:15:25,602 - INFO - 112 documents loaded successfully.
+2025-04-05 10:15:25,604 - INFO - 295 chunks created successfully.
+2025-04-05 10:15:25,618 - INFO - Chunks successfully saved to chunks.json
+2025-04-05 10:15:41,808 - INFO - PyTorch version 2.5.1 available.
+2025-04-05 10:15:43,234 - INFO - Use pytorch device_name: mps
+2025-04-05 10:15:43,234 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-05 10:15:48,738 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-04-05 10:15:52,910 - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-04-05 10:15:52,989 - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-04-05 10:15:53,382 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-04-05 10:16:07,851 - INFO - User query: Welche Unterlagen benötige ich für ein Gesuch, wenn ich Nebenkosten beantrage?
+2025-04-05 10:16:20,803 - INFO - Response: Um ein Gesuch für Nebenkosten bei der Pro Senectute zu stellen, benötigen Sie folgende Unterlagen:
+
+1. **Verfügung der Ergänzungsleistungen inkl. Berechnungsblatt**: Diese Unterlagen sind notwendig, um die finanzielle Situation der gesuchstellenden Person zu beurteilen.
+2. **Weitere Belege über die finanzielle Situation**: Dazu gehören beispielsweise Kontoauszüge, Gehaltsabrechnungen oder andere Dokumente, die die finanzielle Lage der Person darstellen.
+3. **Belege der beantragten Kosten**: Dies können Rechnungen oder Quittungen für die Nebenkosten sein, die Sie beantragen möchten.
+
+Quelle: Dokument 1, Seite 1
+2025-04-05 10:18:44,941 - INFO - User query: Welche Unterlagen benötige ich für ein Gesuch, wenn ich Wohnnebenkosten beantrage?
+2025-04-05 10:18:58,354 - INFO - Response: Für ein Gesuch um Wohnnebenkosten bei der Pro Senectute Aargau benötigen Sie folgende Unterlagen:
+
+1. **Verfügung der Ergänzungsleistungen inkl. Berechnungsblatt**: Diese Unterlagen sind notwendig, um die finanzielle Situation der gesuchstellenden Person zu beurteilen.
+2. **Weitere Belege über die finanzielle Situation**: Dazu gehören beispielsweise Kontoauszüge, Gehaltsabrechnungen oder andere Dokumente, die die Einkommens- und Ausgabensituation der gesuchstellenden Person darstellen.
+3. **Belege der beantragten Kosten**: Dies können Rechnungen oder Quittungen für die Wohnnebenkosten sein, die Sie beantragen möchten.
+
+Quelle: Dokument 1, Seite 1
+2025-04-05 10:19:31,499 - INFO - Response cleared
+2025-04-05 10:19:35,205 - INFO - User query: Welche Dokumente muss ich einreichen, um Nebenkosten zu beantragen?
+2025-04-05 10:19:47,340 - INFO - Response: Um Nebenkosten zu beantragen, müssen folgende Dokumente eingereicht werden:
+
+1. **Verfügung der Ergänzungsleistungen inkl. Berechnungsblatt**: Dieses Dokument ist notwendig, um die finanzielle Situation der gesuchstellenden Person zu beurteilen.
+2. **Weitere Belege über die finanzielle Situation der gesuchstellenden Person**: Dazu gehören beispielsweise Einkommensnachweise, Bankauszüge oder andere relevante finanzielle Dokumente.
+3. **Belege der beantragten Kosten**: Dies können Rechnungen, Quittungen oder andere Nachweise über die Nebenkosten sein, die beantragt werden.
+
+Quelle: Merkblatt_Individuelle_Finanzhilfe.pdf, Seite 1
+2025-04-05 10:19:48,565 - INFO - User query: Ist ein Ehepaar mit einer AHV Rente von 4000.- plus Pensionskasse Rente von 2000.- berechtigt individuelle Finanzhilfe zu beantragen, grundsätzlich?
+2025-04-05 10:20:05,963 - INFO - Response: Ein Ehepaar mit einer AHV-Rente von 4000.- plus Pensionskasse Rente von 2000.- ist grundsätzlich berechtigt, individuelle Finanzhilfe zu beantragen. Die Voraussetzungen für die individuelle Finanzhilfe sind der Wohnsitz in der Schweiz, der Bezug einer AHV-Rente und die Bedürftigkeit. Das Ehepaar erfüllt diese Voraussetzungen, da sie eine AHV-Rente beziehen und in der Schweiz wohnen. Die Höhe der Renten (4000.- AHV plus 2000.- Pensionskasse) ist nicht direkt relevant für die Berechtigung, sondern die Bedürftigkeit und die finanziellen Umstände des Ehepaars müssen geprüft werden. Die genaue Berechnung des Einkommensüberschusses und die Prüfung der Bedürftigkeit erfolgen durch die Sozialberatung (WegleitungRIF01012025.pdf, Seite 7).
+
+    Es ist jedoch wichtig zu beachten, dass die individuellen Finanzhilfen nur gewährt werden, wenn die Vermögensgrenzen gemäss Rz 4011 KSIU eingehalten werden. Für Paare beträgt die Vermögensgrenze 20'000.- (Merkblatt_Individuelle_Finanzhilfe.pdf, Seite 0).
+2025-04-05 10:36:11,418 - INFO - User query: Was muss ich beachten, wenn ich ein Hörgerät beantrage?
+2025-04-05 10:36:32,253 - INFO - Logging setup complete. Starting application...
+2025-04-05 10:36:33,867 - INFO - 112 documents loaded successfully.
+2025-04-05 10:36:33,870 - INFO - 295 chunks created successfully.
+2025-04-05 10:36:33,882 - INFO - Chunks successfully saved to chunks.json
+2025-04-05 10:36:52,119 - INFO - PyTorch version 2.5.1 available.
+2025-04-05 10:36:52,904 - INFO - Use pytorch device_name: mps
+2025-04-05 10:36:52,905 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-05 10:36:58,140 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-04-05 10:37:00,576 - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-04-05 10:37:00,670 - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-04-05 10:37:01,008 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-04-05 10:37:11,444 - INFO - User query: Was muss ich beachten, wenn ich ein Hörgerät beantrage?
+2025-04-05 10:37:35,513 - INFO - Response: Wenn du ein Hörgerät beantragst, musst du folgende Punkte beachten:
+
+1. **Medizinisches Gutachten**: Es muss ein medizinisches Gutachten eines Hals-Nasen-Ohren-Arztes (HNO) oder ein Entscheid für einen IV-Beitrag vorliegen (WegleitungRIF01012025.pdf, Seite 20).
+
+2. **Vergleichsofferte**: Bei Kosten über CHF 1'000.- ist eine Vergleichsofferte erforderlich. Diese muss eingeholt werden (WegleitungRIF01012025.pdf, Seite 20).
+
+3. **Beratung**: Es muss eine differenzierte Beratung bezüglich der geeigneten Hörhilfe erfolgen (WegleitungRIF01012025.pdf, Seite 20).
+
+4. **Finanzielle Unterstützung**: Hörgerätebeiträge können über die Individuelle Finanzhilfe (IF) gewährt werden. Dabei sind die Leistungen der AHV und allfällige Leistungen im Rahmen der Krankheits- und Behinderungskosten gemäss Art. 14 ELG zu berücksichtigen. Sollten durch die AHV-Pauschale und allenfalls weiteren Leistungen der EL oder von Zusatzversicherungen keine einfache und zweckmässige Versorgung möglich sein, können über die IF-Beiträge für Hörgeräte gesprochen werden (2025_IF_Handlungsempfehlungen PS CH und PS AG.pdf, Seite 5).
+
+5. **Prioritätenliste**: Notwendige Gesundheitskosten, einschließlich Hörgeräte, haben eine hohe Priorität bei der Vergabe der Individuellen Finanzhilfe (2025_IF_Handlungsempfehlungen PS CH und PS AG.pdf, Seite 11).
+
+6. **Kostenübernahme**: Die maximal anrechenbaren Kosten für Hörgeräte variieren je nach Art der Versorgung (monaural oder binaural) und ob sie mit Akku betrieben werden. Die genauen Beträge sind in der Wegleitung zum RIF (WegleitungRIF01012025.pdf, Seite 20) aufgeführt.
+
+Diese Punkte sind entscheidend, um sicherzustellen, dass der Antrag auf ein Hörgerät erfolgreich bearbeitet wird und die notwendige finanzielle Unterstützung erhalten wird.
+2025-04-05 10:39:12,713 - INFO - Logging setup complete. Starting application...
+2025-04-05 10:39:12,724 - INFO - HTTP Request: GET https://api.gradio.app/gradio-messaging/en "HTTP/1.1 200 OK"
+2025-04-05 10:39:13,890 - INFO - 112 documents loaded successfully.
+2025-04-05 10:39:13,893 - INFO - 295 chunks created successfully.
+2025-04-05 10:39:13,896 - INFO - Chunks successfully saved to chunks.json
+2025-04-05 10:39:15,846 - INFO - PyTorch version 2.5.1 available.
+2025-04-05 10:39:16,130 - INFO - Use pytorch device_name: mps
+2025-04-05 10:39:16,130 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-05 10:39:18,335 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-04-05 10:39:20,161 - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-04-05 10:39:20,167 - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-04-05 10:39:20,840 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-04-05 10:39:50,520 - INFO - User query: Was muss ich beachten, wenn ich ein Hörgerät beantrage?
+2025-04-05 10:40:14,973 - INFO - Response: Wenn du ein Hörgerät beantragst, musst du folgende Punkte beachten:
+
+1. **Medizinisches Gutachten**: Es muss ein medizinisches Gutachten eines Hals-Nasen-Ohren-Arztes (HNO) oder ein Entscheid für einen IV-Beitrag vorliegen (WegleitungRIF01012025.pdf, Seite 20).
+
+2. **Vergleichsofferte**: Bei Kosten über CHF 1'000.- ist eine Vergleichsofferte erforderlich. Diese muss eingeholt werden (WegleitungRIF01012025.pdf, Seite 20).
+
+3. **Beratung**: Es sollte eine differenzierte Beratung bezüglich der geeigneten Hörhilfe erfolgen (WegleitungRIF01012025.pdf, Seite 20).
+
+4. **Finanzielle Unterstützung**: Hörgerätebeiträge können über die Individuelle Finanzhilfe (IF) gewährt werden. Es sind jedoch die Leistungen der AHV und allfällige Leistungen im Rahmen der Krankheits- und Behinderungskosten gemäss Art. 14 ELG zu berücksichtigen. Sollten durch die AHV-Pauschale und allenfalls weiteren Leistungen der EL oder von Zusatzversicherungen keine einfache und zweckmässige Versorgung möglich sein, können über die IF-Beiträge für Hörgeräte gesprochen werden (2025_IF_Handlungsempfehlungen PS CH und PS AG.pdf, Seite 5).
+
+5. **Prioritätenliste**: Notwendige Gesundheitskosten, einschließlich Hörgeräte, haben eine hohe Priorität bei der Vergabe der Individuellen Finanzhilfe (2025_IF_Handlungsempfehlungen PS CH und PS AG.pdf, Seite 11).
+
+6. **Kostenübernahme**: Die maximal anrechenbaren Kosten für Hörgeräte variieren je nach Art der Versorgung (monaural oder binaural) und ob sie mit Akku betrieben werden. Die genauen Beträge sind in der Wegleitung zum RIF (WegleitungRIF01012025.pdf, Seite 20) aufgeführt.
+
+Diese Punkte sollten bei der Beantragung eines Hörgeräts berücksichtigt werden, um sicherzustellen, dass alle notwendigen Voraussetzungen erfüllt sind und die Finanzierung durch die Individuelle Finanzhilfe möglich ist.
+2025-04-05 10:42:19,474 - INFO - Logging setup complete. Starting application...
+2025-04-05 10:42:20,741 - INFO - 112 documents loaded successfully.
+2025-04-05 10:42:20,744 - INFO - 295 chunks created successfully.
+2025-04-05 10:42:20,748 - INFO - Chunks successfully saved to chunks.json
+2025-04-05 10:42:22,676 - INFO - PyTorch version 2.5.1 available.
+2025-04-05 10:42:22,940 - INFO - Use pytorch device_name: mps
+2025-04-05 10:42:22,941 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-05 10:42:25,070 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-04-05 10:42:40,500 - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-04-05 10:42:40,506 - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-04-05 10:42:41,161 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-04-05 10:42:54,372 - INFO - User query: Was muss ich beachten, wenn ich ein Hörgerät beantrage?
+2025-04-05 10:46:00,997 - INFO - Response:  Beim Beantragen eines Hörgeräts über die Individuelle Finanzhilfe (IF) der Pro Senectute Aargau sind mehrere Punkte zu beachten:
+
+1. **Medizinisches Gutachten oder IV-Entscheid**: Es muss ein medizinisches Gutachten eines Hals-Nasen-Ohren-Arztes (HNO) oder ein Entscheid für einen IV-Beitrag vorliegen. (WegleitungRIF01012025.pdf, Seite 20)
+
+2. **Vergleichsofferte**: Bei Kosten über CHF 1'000.- ist eine Vergleichsofferte erforderlich und muss eingeholt werden. (WegleitungRIF01012025.pdf, Seite 20)
+
+3. **Nutzung des Hörgeräts**: Es muss festgelegt werden, inwiefern das Hörgerät (ein oder zwei Geräte) genutzt wird. (WegleitungRIF01012025.pdf, Seite 20)
+
+4. **Beratung**: Es muss eine differenzierte Beratung bezüglich der geeigneten Hörhilfe erfolgt sein. (WegleitungRIF01012025.pdf, Seite 20)
+
+5. **Kosten und Beiträge**: Die Kosten für Hörgeräte variieren je nach Art der Versorgung (monaurale oder binaurale) und ob sie mit Akku ausgestattet sind. Die maximal anrechenbaren Kosten und die Abzüge für IV/AHV-Beiträge sind in der Wegleitung detailliert aufgeführt. (WegleitungRIF01012025.pdf, Seite 20)
+
+6. **Prioritätenliste**: Hörgeräte fallen unter die Kategorie "Notwendige Gesundheitskosten, medizinische Hilfsmittel" und haben eine hohe Priorität in der Liste der finanziellen Hilfen. (2025_IF_Handlungsempfehlungen PS CH und PS AG.pdf, Seite 11)
+
+7. **Ergänzungsleistungen**: Es muss geprüft werden, ob die AHV-Pauschale und allfällige weitere Leistungen der Ergänzungsleistungen (EL) oder Zusatzversicherungen eine einfache und zweckmässige Versorgung ermöglichen. (2025_IF_Handlungsempfehlungen PS CH und PS AG.pdf, Seite 5)
+
+Diese Punkte sollten bei der Beantragung eines Hörgeräts über die Individuelle Finanzhilfe der Pro Senectute Aargau berücksichtigt werden.
