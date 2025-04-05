@@ -76,6 +76,7 @@ nice to have:
 - link all the related documents that were used for asissting
 - create a docker enviroment for the roll out
 - create a login feature for SW based on their AD credentials
+- extend the feature of giving feedback for the output with thumbs up or down and collect the it in log and make a simple frequency statistics on the feedback
 
 Open questions:
 - Hardware, Software, Solition requirements?
