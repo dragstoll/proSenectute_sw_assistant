@@ -89,7 +89,7 @@ SW should make a question and use the data.
 - SW who is he, new worker or experienced worker, decide on the. Focus on new worker and their needs, more generic questions not on experienced with very speciall questions.
 
 Es sind ziemlich ähnliche Fragen, welche :
-Antonella Sandri ist eine Sozialarbeitende, welche helfen könnte zu testen.
+
 
 1. Was muss ich beachten, wenn ich ein Hörgerät beantrage?
 Es muss einfach zweckmässig sein, im Verhältis kosten, man mus subsidirität beachten, ahv, man muss akblären of kranken kasse zahl, man braucht offerte, man muss service vertrag. 
