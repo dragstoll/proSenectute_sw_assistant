@@ -49,21 +49,31 @@ State of dev: 10pm going home:
 
 
 To do list:
-- (not ok) Make gradio app usable from the web for testing purposes
+- (ok) Make gradio app usable from the web for testing purposes, with ngrok done.
 - (ok) Make sure that all documents in folder are being loaded and used for processing
 - (ok) create a button for clearing the input
-- make sure to print in a foldable window with all the chunks is has used for generation 
 - (ok) alles auf Deutsch
-- Instruct RAG to reference to the document, page and text section that it refers to.
+- (ok) Instruct RAG to reference to the document, page and text section that it refers to.
 - (ok) showing examples for questions
 
-- Define a template for the prompt: like "I am a new SW at Pro Senectute help me answer this question... (Mateo)
+- (ok) Define a template for the prompt: like "I am a new SW at Pro Senectute help me answer this question... (Mateo)
 - Test the example questions and save the output (Mateo)
-- Define a file for prompt_template for development (Dragan)
+- (ok) Define a file for prompt_template for development (Dragan)
+- output the used chunks in a file for validation
+- make a presentation of our challenge (Mateo)
+- make a version running on a linux server
+- test bigger models 100B+ for inference (with larger GPUs)
+- analyze caseexamples for usable questions to ask
+
+
+
 
 nice to have:
 - create a feature to be able to save the queries/prompts for further use
 - create a feature to load additional documents beside the available ones
+- link all the related documents that were used for asissting
+- create a docker enviroment for the roll out
+- create a login feature for SW based on their AD credentials
 
 Open questions:
 - Hardware, Software, Solition requirements?
